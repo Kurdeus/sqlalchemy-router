@@ -1,4 +1,4 @@
-from models import Base, User_Master, User_Slave
+from models import User_Master, User_Slave
 from router import engines, RoutingSession
 
 
@@ -6,8 +6,8 @@ from router import engines, RoutingSession
 
 
 if __name__ == '__main__':
-    for engine in engines.values():
-        Base.metadata.create_all(engine)
+    for item in engines.values():
+        item["base"].metadata.create_all(item["engine"])
 
     session = RoutingSession()
 
