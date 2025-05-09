@@ -27,7 +27,7 @@ Here's a basic example of how to use the SQLAlchemy Router:
 
 ```python
 from models import User_Master, User_Slave
-from router import engines, RoutingSession
+from router import RoutingSession
 
 
 session = RoutingSession()
