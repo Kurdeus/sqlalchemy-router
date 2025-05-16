@@ -14,7 +14,7 @@ A Python library that implements database routing between master and slave datab
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sqlalchemy-router.git
+git clone https://github.com/sqlalchemy-router/sqlalchemy-router.git
 cd sqlalchemy-router
 
 # Install dependencies
